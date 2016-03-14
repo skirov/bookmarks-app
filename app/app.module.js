@@ -1,5 +1,8 @@
 angular.module('gdansk-training', [
     'gt.components.hello-world',
+    'gt.components.hello-world1',
+    'gt.components.custom-button',
+    'gt.components.sub-button',
 
     'gdanskTraining.templates',
     'gdanskTraining-constant',

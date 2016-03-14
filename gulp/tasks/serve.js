@@ -10,7 +10,7 @@ gulp.task('$open', ['$inject-files'],  function () {
 });
 
 gulp.task('$connect', ['$inject-files'],  function () {
-    return require('gulp-connect').server({root: './'});
+    return require('gulp-connect').server({root: __dirname + '/../../'});
 });
 
 gulp.task('default', ['$connect', '$watch', '$watch-index', '$open']);
