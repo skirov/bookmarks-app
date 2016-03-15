@@ -1,11 +1,15 @@
-angular.module('gt.components.custom-button', [
-]).directive('customButton', function () {
+angular.module('gt.components.custom-button', []).directive('customButton', function () {
     return {
         templateUrl: 'app/components/custom-button/custom-button.html',
         scope: { text: '=' },
-        controller: 'CustomButtonController',
-        controllerAs: 'ctrl',
         transclude: true,
-        bindToController: true
+        controllerAs: 'ctrl',
+        controller: 'CustomButtonController',
+        bindToController: true,
+        link: function ( $scope ) {
+            $scope.$watch(function () {
+                $scope.date = new Date();
+            });
+        }
     };
 });

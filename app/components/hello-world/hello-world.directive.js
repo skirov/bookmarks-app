@@ -4,8 +4,13 @@ angular.module('gt.components.hello-world', [
     return {
         templateUrl: 'app/components/hello-world/hello-world.html',
         scope: true,
-        link: function ($scope) {
+        link: function ($scope, $element, $attr) {
             $scope.helloText = 'hello kitty ^_^ ow';
+
+            $scope.counter = 0;
+            $scope.count = function(){
+                $scope.counter++;
+            }
         }
     };
 });
