@@ -1,0 +1,16 @@
+<form role="form">
+    <div class="form-group">
+        <label for="bookmark-url">Bookmark URL</label>
+        <input type="text" class="form-control" id="bookmark-url" ng-model="bookmark.url">
+    </div>
+    <div class="form-group">
+        <label for="bookmark-title">Bookmark title</label>
+        <input type="text" class="form-control" id="bookmark-title" ng-model="bookmark.title">
+    </div>
+    <div class="form-group">
+        <label for="bookmark-tags">Bookmark tags</label>
+        <input type="text" class="form-control" id="bookmark-tags" ng-model="bookmark.tags">
+    </div>
+    <button type="submit" class="btn btn-success" ng-click="bookmark._id ? edit() : save()">Save</button>
+    <button class="btn btn-default" ng-click="clear()">Clear</button>
+</form>
