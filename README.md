@@ -1,4 +1,4 @@
-## [Demo] http://sk-bookmarks.bitballoon.com/
+## [Demo] (http://sk-bookmarks.bitballoon.com/)
 ### Installation
 Install node js and ruby (for Sass). Then run:
 ```sh 
