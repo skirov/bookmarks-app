@@ -1,12 +1,4 @@
-# gulp-training-seed
-Gullp Seed for angular project to teach other poeple.
-
-This repo contains very quick gulpfile, below you ll find some instructions to use it.
-
-
-# Gulpfile
-
-## Development Setup
+## [Demo] http://sk-bookmarks.bitballoon.com/
 ### Installation
 Install node js and ruby (for Sass). Then run:
 ```sh 
