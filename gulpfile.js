@@ -1,1 +1,2 @@
-require('./resources/requireDir.js')('./gulp/tasks');
+// require('./resources/requireDir.js')('./gulp/tasks');
+require('./gulp-alternate.js')
