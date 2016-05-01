@@ -5,10 +5,8 @@ var inlineSource = require('gulp-inline-source');
 var processhtml = require('gulp-processhtml');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-// var sass = require('gulp-sass');
 var concatCss = require('gulp-concat-css');
 var cssmin = require('gulp-cssmin');
-// var rename = require('gulp-rename');
 
 var path = {
     DIST: './build',
